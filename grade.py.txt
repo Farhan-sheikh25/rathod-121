@@ -1,0 +1,27 @@
+name=str(input("enter your name:-"))
+print("enter your marks out of 100")
+hindi=int(input("enter the marks of hindi:-"))
+english=int(input("enter the marks of english:-"))
+maths=int(input("enter the marks of maths:-"))
+science=int(input("enter the marks of science:-"))
+sanskrit=int(input("enter the marks of sanskrit:-"))
+Total_marks=hindi+english+maths+science+sanskrit
+print("Total marks:-",Total_marks)
+percentage= Total_marks/5
+print("Percentage:-",percentage)
+if(percentage>=91):
+    print("Grade:-A+")
+elif(percentage>=81):
+    print("Grade:-A")
+elif(percentage>=71):
+    print("Grade:-B+")
+elif(percentage>=61):
+    print("Grade:-B")
+elif(percentage>=51):
+    print("Grade:-C+")
+elif(percentage>=41):
+    print("Grade:-C")
+elif(percentage>=36):
+    print("Grade:-D")
+else:
+    print("Fail")
